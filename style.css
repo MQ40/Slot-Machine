@@ -1,0 +1,43 @@
+.slot-machine{
+    width: center;
+    margin: 0 auto;
+    text-align: center;
+    font: 24px Acme;
+    justify-content: center;
+}
+
+.reels{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+button {
+    padding: 10px 10px;
+    border: 0;
+    font: 20px Acme;
+    border-radius: 20px;
+    background-color: #baad9c;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.game-board {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.box {
+  background: #baad9c;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 20px;
+}
