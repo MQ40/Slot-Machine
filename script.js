@@ -46,8 +46,6 @@ const getSymbol = (random) => {
 }
 };
 
-
-
 const printSymbol = (cellIndex, symbol) => {
   const cellId = "cell-" + cellIndex;
   const cell = document.getElementById(cellId);
